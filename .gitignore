@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+dist/
+build/
+
+# 日志 / 临时文件
+*.log
+logs/
+*.tmp
+*.temp
+.tools/
+data/
+
+# 密钥 / 环境变量
+.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials*
+
+# IDE / 系统
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
