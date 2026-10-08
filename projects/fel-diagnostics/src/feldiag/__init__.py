@@ -10,6 +10,7 @@ from .config import AnomalyConfig, GeneratorConfig
 from .generator import DiagnosticsDataset, generate
 from .anomalies import AnomalyType, InjectedAnomaly
 from .export import to_csv, to_hdf5, to_npz
+from .plot import plot_dataset
 
 __all__ = [
     "AnomalyConfig",
@@ -21,6 +22,7 @@ __all__ = [
     "to_hdf5",
     "to_npz",
     "to_csv",
+    "plot_dataset",
 ]
 
 __version__ = "0.1.0"
